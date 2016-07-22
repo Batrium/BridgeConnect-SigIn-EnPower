@@ -4,10 +4,10 @@
 // -------------------------------------------------------------
 // targets defined for charger based on operating modes
 
-const uint16_t HIPOWER_MAX_VOLT = 530; // 0.1v/bit  typically 73.8v
-const uint16_t HIPOWER_MAX_AMP  = 150; // 0.1A/bit  typically 40.0A
-const uint16_t LOPOWER_MAX_VOLT = 530; // 0.1v/bit  typically 73.8v
-const uint16_t LOPOWER_MAX_AMP  =  18; // 0.1A/bit  typically  1.0A
+const uint16_t HIPOWER_MAX_VOLT = 1230; // 0.1v/bit  typically 123.0v (30S @ 4.10v)
+const uint16_t HIPOWER_MAX_AMP  =  250; // 0.1A/bit  typically  25.0A 
+const uint16_t LOPOWER_MAX_VOLT = 1230; // 0.1v/bit  typically 123.0v
+const uint16_t LOPOWER_MAX_AMP  =   10; // 0.1A/bit  typically   1.0A
 
 // -------------------------------------------------------------
 // variable related to canbus port 2
